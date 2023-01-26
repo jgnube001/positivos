@@ -6,11 +6,19 @@
     },
     {
       "id": "Login",
-      "isDefault": true
+      "isDefault": false
     },
     {
       "id": "Alumnos",
       "isDefault": false
+    },
+    {
+      "id": "NuevoParte",
+      "isDefault": false
+    },
+    {
+      "id": "Home",
+      "isDefault": true
     }
   ],
   "viewMode": false,
@@ -26,6 +34,7 @@
     "type": "MOBILE"
   },
   "unpublishedCustomJSLibs": [],
+  "publishedCustomJSLibs": [],
   "evaluationVersion": 2,
   "applicationVersion": 2,
   "isManualUpdate": false,
