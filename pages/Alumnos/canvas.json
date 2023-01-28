@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 860,
+          "bottomRow": 810,
           "containerStyle": "none",
           "snapRows": 125,
           "parentRowSpace": 1,
@@ -438,7 +438,7 @@
                       "dateFormat": "DD/MM/YYYY",
                       "iconSVG": "/static/media/icon.300e5ab8e2e1c26c7a0bad06116842b7.svg",
                       "topRow": 13,
-                      "labelWidth": "18",
+                      "labelWidth": "24",
                       "type": "DATE_PICKER_WIDGET2",
                       "animateLoading": true,
                       "leftColumn": 1,
@@ -480,7 +480,7 @@
                       "labelTextSize": "0.875rem",
                       "defaultDate": "2023-01-28T22:01:11.438Z",
                       "isDeprecated": false,
-                      "rightColumn": 44,
+                      "rightColumn": 52,
                       "widgetId": "5nz8jigo9k",
                       "label": "Fecha del parte:",
                       "parentId": "o1l5w1oa0m",
@@ -590,8 +590,8 @@
                 "paragraph",
                 "label"
               ],
-              "topRow": 74,
-              "bottomRow": 78,
+              "topRow": 69,
+              "bottomRow": 73,
               "parentRowSpace": 10,
               "type": "TEXT_WIDGET",
               "hideCard": false,
@@ -631,10 +631,10 @@
               "parentId": "0",
               "renderMode": "CANVAS",
               "isLoading": false,
-              "originalTopRow": 15,
+              "originalTopRow": 74,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 19,
+              "originalBottomRow": 78,
               "fontSize": "1rem",
               "minDynamicHeight": 4
             },
@@ -651,7 +651,7 @@
               "displayName": "Tabs",
               "iconSVG": "/static/media/icon.74a6d653c8201e66f1cd367a3fba2657.svg",
               "topRow": 0,
-              "bottomRow": 74,
+              "bottomRow": 69,
               "parentRowSpace": 10,
               "type": "TABS_WIDGET",
               "hideCard": false,
@@ -809,7 +809,7 @@
                         "status": 75,
                         "Grupo": 97,
                         "Alumno": 226,
-                        "Nombre": 253
+                        "Nombre": 231
                       },
                       "parentRowSpace": 10,
                       "hideCard": false,
@@ -1044,7 +1044,7 @@
                       "originalTopRow": 4,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "maxDynamicHeight": 9000,
-                      "originalBottomRow": 11,
+                      "originalBottomRow": 8,
                       "fontSize": "1rem",
                       "minDynamicHeight": 4
                     }
@@ -1154,7 +1154,7 @@
               "widgetId": "7f6dqf6ief",
               "accentColor": "{{appsmith.theme.colors.primaryColor}}",
               "defaultTab": "{{JSObject1.autorizado()}}",
-              "shouldShowTabs": true,
+              "shouldShowTabs": false,
               "tabsObj": {
                 "tabaprg5mom6f": {
                   "id": "tabaprg5mom6f",
@@ -1189,7 +1189,7 @@
               "originalTopRow": 0,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 15,
+              "originalBottomRow": 74,
               "minDynamicHeight": 15
             }
           ]
