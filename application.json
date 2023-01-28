@@ -1,12 +1,8 @@
 {
   "pages": [
     {
-      "id": "Detalles",
-      "isDefault": false
-    },
-    {
       "id": "Login",
-      "isDefault": false
+      "isDefault": true
     },
     {
       "id": "Alumnos",
@@ -15,10 +11,6 @@
     {
       "id": "NuevoParte",
       "isDefault": false
-    },
-    {
-      "id": "Home",
-      "isDefault": true
     }
   ],
   "viewMode": false,

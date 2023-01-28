@@ -2,7 +2,7 @@
   "pluginType": "SAAS",
   "pluginId": "google-sheets-plugin",
   "unpublishedAction": {
-    "name": "ConsultaPrueba",
+    "name": "ConsultaAlumnos",
     "datasource": {
       "name": "AppTelefonos",
       "pluginId": "google-sheets-plugin",
@@ -13,7 +13,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Home",
+    "pageId": "Alumnos",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -28,24 +28,27 @@
         },
         "pagination": {
           "data": {
-            "limit": "20",
+            "limit": "500",
             "offset": "0"
           }
         },
         "projection": {
-          "data": []
+          "data": [
+            "Grupo",
+            "Nombre"
+          ]
         },
         "queryFormat": {
-          "data": "ROWS"
+          "data": "RANGE"
         },
         "range": {
-          "data": ""
+          "data": "A2:B500"
         },
         "sheetName": {
-          "data": "Hoja 1"
+          "data": "Alumnos"
         },
         "sheetUrl": {
-          "data": "https://docs.google.com/spreadsheets/d/1eg3tiH5gDbBdb1qje9L0XUvcMWexfvG2fX4rwKH_rTI/edit"
+          "data": "https://docs.google.com/spreadsheets/d/1jEIp5bratPGYyuJ4KlzTqlX_gLzQ26sOPe1gb3mfl8s/edit"
         },
         "smartSubstitution": {
           "data": true
@@ -66,7 +69,7 @@
             "condition": "AND",
             "children": [
               {
-                "condition": "LT"
+                "condition": "CONTAINS"
               }
             ]
           }
@@ -84,7 +87,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "Home_ConsultaPrueba",
+  "id": "Alumnos_ConsultaAlumnos",
   "deleted": false,
-  "gitSyncId": "63d26342af0003311d231629_63d2795f47460b739125bedb"
+  "gitSyncId": "63d26342af0003311d231629_63d59fd88eeef253ccca19b2"
 }

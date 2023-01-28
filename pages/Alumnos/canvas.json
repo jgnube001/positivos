@@ -19,7 +19,7 @@
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 75,
+          "version": 76,
           "minHeight": 1292,
           "dynamicTriggerPathList": [],
           "parentColumnSpace": 1,
@@ -38,12 +38,12 @@
                 "notification"
               ],
               "topRow": 0,
-              "bottomRow": 460,
+              "bottomRow": 37,
               "parentRowSpace": 1,
               "type": "MODAL_WIDGET",
               "hideCard": false,
               "shouldScrollContents": true,
-              "minHeight": 290,
+              "minHeight": 390,
               "animateLoading": true,
               "parentColumnSpace": 1,
               "leftColumn": 0,
@@ -57,245 +57,17 @@
                   "widgetName": "Canvas1",
                   "displayName": "Canvas",
                   "topRow": 0,
-                  "bottomRow": 460,
+                  "bottomRow": 370,
                   "parentRowSpace": 1,
                   "type": "CANVAS_WIDGET",
                   "canExtend": true,
                   "hideCard": true,
                   "shouldScrollContents": false,
-                  "minHeight": 460,
+                  "minHeight": 370,
                   "parentColumnSpace": 1,
                   "leftColumn": 0,
                   "dynamicBindingPathList": [],
                   "children": [
-                    {
-                      "widgetName": "Text6CopyCopy1",
-                      "displayName": "Text",
-                      "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
-                      "searchTags": [
-                        "typography",
-                        "paragraph",
-                        "label"
-                      ],
-                      "topRow": 27,
-                      "bottomRow": 31,
-                      "parentRowSpace": 10,
-                      "type": "TEXT_WIDGET",
-                      "hideCard": false,
-                      "animateLoading": true,
-                      "overflow": "NONE",
-                      "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
-                      "parentColumnSpace": 6.4921875,
-                      "dynamicTriggerPathList": [],
-                      "leftColumn": 1,
-                      "dynamicBindingPathList": [
-                        {
-                          "key": "truncateButtonColor"
-                        },
-                        {
-                          "key": "fontFamily"
-                        },
-                        {
-                          "key": "borderRadius"
-                        },
-                        {
-                          "key": "text"
-                        }
-                      ],
-                      "shouldTruncate": false,
-                      "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-                      "text": "{{Table1Copy.selectedRow.Telefono4}}",
-                      "key": "lctun8lj46",
-                      "isDeprecated": false,
-                      "rightColumn": 25,
-                      "textAlign": "LEFT",
-                      "dynamicHeight": "AUTO_HEIGHT",
-                      "widgetId": "d5idpy6rz6",
-                      "isVisible": true,
-                      "fontStyle": "BOLD",
-                      "textColor": "#231F20",
-                      "version": 1,
-                      "parentId": "o1l5w1oa0m",
-                      "renderMode": "CANVAS",
-                      "isLoading": false,
-                      "originalTopRow": 8,
-                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "maxDynamicHeight": 9000,
-                      "originalBottomRow": 12,
-                      "fontSize": "1rem",
-                      "minDynamicHeight": 4
-                    },
-                    {
-                      "widgetName": "Text7CopyCopy1",
-                      "displayName": "Text",
-                      "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
-                      "searchTags": [
-                        "typography",
-                        "paragraph",
-                        "label"
-                      ],
-                      "topRow": 27,
-                      "bottomRow": 31,
-                      "parentRowSpace": 10,
-                      "type": "TEXT_WIDGET",
-                      "hideCard": false,
-                      "animateLoading": true,
-                      "overflow": "NONE",
-                      "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
-                      "parentColumnSpace": 6.4921875,
-                      "dynamicTriggerPathList": [],
-                      "leftColumn": 26,
-                      "dynamicBindingPathList": [
-                        {
-                          "key": "truncateButtonColor"
-                        },
-                        {
-                          "key": "fontFamily"
-                        },
-                        {
-                          "key": "borderRadius"
-                        },
-                        {
-                          "key": "text"
-                        }
-                      ],
-                      "shouldTruncate": false,
-                      "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-                      "text": "{{Table1Copy.selectedRow.Contacto4}}",
-                      "key": "lctun8lj46",
-                      "isDeprecated": false,
-                      "rightColumn": 64,
-                      "textAlign": "LEFT",
-                      "dynamicHeight": "AUTO_HEIGHT",
-                      "widgetId": "juk0gt34he",
-                      "isVisible": true,
-                      "fontStyle": "BOLD",
-                      "textColor": "#231F20",
-                      "version": 1,
-                      "parentId": "o1l5w1oa0m",
-                      "renderMode": "CANVAS",
-                      "isLoading": false,
-                      "originalTopRow": 8,
-                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "maxDynamicHeight": 9000,
-                      "originalBottomRow": 12,
-                      "fontSize": "0.875rem",
-                      "minDynamicHeight": 4
-                    },
-                    {
-                      "widgetName": "Text6CopyCopy",
-                      "displayName": "Text",
-                      "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
-                      "searchTags": [
-                        "typography",
-                        "paragraph",
-                        "label"
-                      ],
-                      "topRow": 22,
-                      "bottomRow": 26,
-                      "parentRowSpace": 10,
-                      "type": "TEXT_WIDGET",
-                      "hideCard": false,
-                      "animateLoading": true,
-                      "overflow": "NONE",
-                      "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
-                      "parentColumnSpace": 6.4921875,
-                      "dynamicTriggerPathList": [],
-                      "leftColumn": 1,
-                      "dynamicBindingPathList": [
-                        {
-                          "key": "truncateButtonColor"
-                        },
-                        {
-                          "key": "fontFamily"
-                        },
-                        {
-                          "key": "borderRadius"
-                        },
-                        {
-                          "key": "text"
-                        }
-                      ],
-                      "shouldTruncate": false,
-                      "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-                      "text": "{{Table1Copy.selectedRow.Telefono3}}",
-                      "key": "lctun8lj46",
-                      "isDeprecated": false,
-                      "rightColumn": 25,
-                      "textAlign": "LEFT",
-                      "dynamicHeight": "AUTO_HEIGHT",
-                      "widgetId": "wsajbtg8nq",
-                      "isVisible": true,
-                      "fontStyle": "BOLD",
-                      "textColor": "#231F20",
-                      "version": 1,
-                      "parentId": "o1l5w1oa0m",
-                      "renderMode": "CANVAS",
-                      "isLoading": false,
-                      "originalTopRow": 8,
-                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "maxDynamicHeight": 9000,
-                      "originalBottomRow": 12,
-                      "fontSize": "1rem",
-                      "minDynamicHeight": 4
-                    },
-                    {
-                      "widgetName": "Text7CopyCopy",
-                      "displayName": "Text",
-                      "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
-                      "searchTags": [
-                        "typography",
-                        "paragraph",
-                        "label"
-                      ],
-                      "topRow": 22,
-                      "bottomRow": 26,
-                      "parentRowSpace": 10,
-                      "type": "TEXT_WIDGET",
-                      "hideCard": false,
-                      "animateLoading": true,
-                      "overflow": "NONE",
-                      "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
-                      "parentColumnSpace": 6.4921875,
-                      "dynamicTriggerPathList": [],
-                      "leftColumn": 26,
-                      "dynamicBindingPathList": [
-                        {
-                          "key": "truncateButtonColor"
-                        },
-                        {
-                          "key": "fontFamily"
-                        },
-                        {
-                          "key": "borderRadius"
-                        },
-                        {
-                          "key": "text"
-                        }
-                      ],
-                      "shouldTruncate": false,
-                      "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-                      "text": "{{Table1Copy.selectedRow.Contacto3}}",
-                      "key": "lctun8lj46",
-                      "isDeprecated": false,
-                      "rightColumn": 64,
-                      "textAlign": "LEFT",
-                      "dynamicHeight": "AUTO_HEIGHT",
-                      "widgetId": "hbnb539wyh",
-                      "isVisible": true,
-                      "fontStyle": "BOLD",
-                      "textColor": "#231F20",
-                      "version": 1,
-                      "parentId": "o1l5w1oa0m",
-                      "renderMode": "CANVAS",
-                      "isLoading": false,
-                      "originalTopRow": 8,
-                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "maxDynamicHeight": 9000,
-                      "originalBottomRow": 12,
-                      "fontSize": "0.875rem",
-                      "minDynamicHeight": 4
-                    },
                     {
                       "widgetName": "Text3Copy",
                       "displayName": "Text",
@@ -332,139 +104,25 @@
                       ],
                       "shouldTruncate": false,
                       "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-                      "text": "{{Table1Copy.selectedRow.Detalles}}",
+                      "text": "Grupo: {{Table1Copy.selectedRow.Grupo}}",
                       "key": "ggdkon48bv",
                       "isDeprecated": false,
-                      "rightColumn": 61,
+                      "rightColumn": 12,
                       "textAlign": "LEFT",
                       "dynamicHeight": "AUTO_HEIGHT",
                       "widgetId": "u5izdnr6gq",
                       "isVisible": true,
                       "fontStyle": "BOLD",
-                      "textColor": "#ef4444",
+                      "textColor": "#18181b",
                       "version": 1,
                       "parentId": "o1l5w1oa0m",
                       "renderMode": "CANVAS",
                       "isLoading": false,
-                      "originalTopRow": 6,
+                      "originalTopRow": 9,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "maxDynamicHeight": 9000,
-                      "originalBottomRow": 10,
+                      "originalBottomRow": 13,
                       "fontSize": "1rem",
-                      "minDynamicHeight": 4
-                    },
-                    {
-                      "widgetName": "Text6Copy",
-                      "displayName": "Text",
-                      "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
-                      "searchTags": [
-                        "typography",
-                        "paragraph",
-                        "label"
-                      ],
-                      "topRow": 17,
-                      "bottomRow": 21,
-                      "parentRowSpace": 10,
-                      "type": "TEXT_WIDGET",
-                      "hideCard": false,
-                      "animateLoading": true,
-                      "overflow": "NONE",
-                      "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
-                      "parentColumnSpace": 6.4921875,
-                      "dynamicTriggerPathList": [],
-                      "leftColumn": 1,
-                      "dynamicBindingPathList": [
-                        {
-                          "key": "truncateButtonColor"
-                        },
-                        {
-                          "key": "fontFamily"
-                        },
-                        {
-                          "key": "borderRadius"
-                        },
-                        {
-                          "key": "text"
-                        }
-                      ],
-                      "shouldTruncate": false,
-                      "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-                      "text": "{{Table1Copy.selectedRow.Telefono2}}",
-                      "key": "lctun8lj46",
-                      "isDeprecated": false,
-                      "rightColumn": 25,
-                      "textAlign": "LEFT",
-                      "dynamicHeight": "AUTO_HEIGHT",
-                      "widgetId": "oeju4y61fi",
-                      "isVisible": true,
-                      "fontStyle": "BOLD",
-                      "textColor": "#231F20",
-                      "version": 1,
-                      "parentId": "o1l5w1oa0m",
-                      "renderMode": "CANVAS",
-                      "isLoading": false,
-                      "originalTopRow": 8,
-                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "maxDynamicHeight": 9000,
-                      "originalBottomRow": 12,
-                      "fontSize": "1rem",
-                      "minDynamicHeight": 4
-                    },
-                    {
-                      "widgetName": "Text7Copy",
-                      "displayName": "Text",
-                      "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
-                      "searchTags": [
-                        "typography",
-                        "paragraph",
-                        "label"
-                      ],
-                      "topRow": 17,
-                      "bottomRow": 21,
-                      "parentRowSpace": 10,
-                      "type": "TEXT_WIDGET",
-                      "hideCard": false,
-                      "animateLoading": true,
-                      "overflow": "NONE",
-                      "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
-                      "parentColumnSpace": 6.4921875,
-                      "dynamicTriggerPathList": [],
-                      "leftColumn": 26,
-                      "dynamicBindingPathList": [
-                        {
-                          "key": "truncateButtonColor"
-                        },
-                        {
-                          "key": "fontFamily"
-                        },
-                        {
-                          "key": "borderRadius"
-                        },
-                        {
-                          "key": "text"
-                        }
-                      ],
-                      "shouldTruncate": false,
-                      "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-                      "text": "{{Table1Copy.selectedRow.Contacto2}}",
-                      "key": "lctun8lj46",
-                      "isDeprecated": false,
-                      "rightColumn": 64,
-                      "textAlign": "LEFT",
-                      "dynamicHeight": "AUTO_HEIGHT",
-                      "widgetId": "imramguhgz",
-                      "isVisible": true,
-                      "fontStyle": "BOLD",
-                      "textColor": "#231F20",
-                      "version": 1,
-                      "parentId": "o1l5w1oa0m",
-                      "renderMode": "CANVAS",
-                      "isLoading": false,
-                      "originalTopRow": 8,
-                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "maxDynamicHeight": 9000,
-                      "originalBottomRow": 12,
-                      "fontSize": "0.875rem",
                       "minDynamicHeight": 4
                     },
                     {
@@ -538,7 +196,7 @@
                       ],
                       "shouldTruncate": false,
                       "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-                      "text": "Teléfonos de contacto de:",
+                      "text": "Nuevo parte positivo.",
                       "key": "ggdkon48bv",
                       "isDeprecated": false,
                       "rightColumn": 58,
@@ -569,13 +227,13 @@
                         "click",
                         "submit"
                       ],
-                      "topRow": 40,
-                      "bottomRow": 44,
+                      "topRow": 31,
+                      "bottomRow": 35,
                       "type": "BUTTON_WIDGET",
                       "hideCard": false,
                       "animateLoading": true,
                       "dynamicTriggerPathList": [],
-                      "leftColumn": 30,
+                      "leftColumn": 3,
                       "dynamicBindingPathList": [
                         {
                           "key": "buttonColor"
@@ -584,11 +242,11 @@
                           "key": "borderRadius"
                         }
                       ],
-                      "text": "Cerrar",
+                      "text": "Cancelar",
                       "isDisabled": false,
                       "key": "qfo3kpn66z",
                       "isDeprecated": false,
-                      "rightColumn": 46,
+                      "rightColumn": 19,
                       "isDefaultClickDisabled": true,
                       "widgetId": "fic7wts5pv",
                       "buttonStyle": "PRIMARY",
@@ -598,10 +256,10 @@
                       "parentId": "o1l5w1oa0m",
                       "renderMode": "CANVAS",
                       "isLoading": false,
-                      "originalTopRow": 21,
+                      "originalTopRow": 31,
                       "disabledWhenInvalid": false,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "originalBottomRow": 25,
+                      "originalBottomRow": 35,
                       "buttonVariant": "SECONDARY",
                       "placement": "CENTER"
                     },
@@ -617,8 +275,8 @@
                         "click",
                         "submit"
                       ],
-                      "topRow": 40,
-                      "bottomRow": 44,
+                      "topRow": 31,
+                      "bottomRow": 35,
                       "type": "BUTTON_WIDGET",
                       "hideCard": false,
                       "animateLoading": true,
@@ -627,7 +285,7 @@
                           "key": "onClick"
                         }
                       ],
-                      "leftColumn": 46,
+                      "leftColumn": 43,
                       "dynamicBindingPathList": [
                         {
                           "key": "buttonColor"
@@ -636,11 +294,11 @@
                           "key": "borderRadius"
                         }
                       ],
-                      "text": "Aceptar",
+                      "text": "Guardar",
                       "isDisabled": false,
                       "key": "qfo3kpn66z",
                       "isDeprecated": false,
-                      "rightColumn": 62,
+                      "rightColumn": 59,
                       "isDefaultClickDisabled": true,
                       "widgetId": "12p8bmezas",
                       "buttonStyle": "PRIMARY_BUTTON",
@@ -650,15 +308,15 @@
                       "parentId": "o1l5w1oa0m",
                       "renderMode": "CANVAS",
                       "isLoading": false,
-                      "originalTopRow": 21,
+                      "originalTopRow": 31,
                       "disabledWhenInvalid": false,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "originalBottomRow": 25,
+                      "originalBottomRow": 35,
                       "buttonVariant": "PRIMARY",
                       "placement": "CENTER"
                     },
                     {
-                      "widgetName": "Text3",
+                      "widgetName": "txtModalNombre",
                       "displayName": "Text",
                       "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
                       "searchTags": [
@@ -693,7 +351,7 @@
                       ],
                       "shouldTruncate": false,
                       "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-                      "text": "{{Table1Copy.selectedRow.Alumno}}",
+                      "text": "{{Table1Copy.selectedRow.Nombre}}",
                       "key": "ggdkon48bv",
                       "isDeprecated": false,
                       "rightColumn": 61,
@@ -707,16 +365,16 @@
                       "parentId": "o1l5w1oa0m",
                       "renderMode": "CANVAS",
                       "isLoading": false,
-                      "originalTopRow": 6,
+                      "originalTopRow": 4,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "maxDynamicHeight": 9000,
-                      "originalBottomRow": 10,
+                      "originalBottomRow": 8,
                       "fontSize": "1rem",
                       "minDynamicHeight": 4
                     },
                     {
                       "boxShadow": "none",
-                      "widgetName": "editComentarios1",
+                      "widgetName": "ModalDescripcion",
                       "displayName": "Input",
                       "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
                       "searchTags": [
@@ -725,8 +383,8 @@
                         "number",
                         "textarea"
                       ],
-                      "topRow": 31,
-                      "bottomRow": 40,
+                      "topRow": 18,
+                      "bottomRow": 29,
                       "parentRowSpace": 10,
                       "labelWidth": 5,
                       "autoFocus": false,
@@ -747,14 +405,11 @@
                         },
                         {
                           "key": "borderRadius"
-                        },
-                        {
-                          "key": "defaultText"
                         }
                       ],
                       "labelPosition": "Top",
                       "labelStyle": "",
-                      "inputType": "TEXT",
+                      "inputType": "MULTI_LINE_TEXT",
                       "isDisabled": false,
                       "key": "h91gkkjdhj",
                       "labelTextSize": "0.875rem",
@@ -767,79 +422,81 @@
                       "accentColor": "{{appsmith.theme.colors.primaryColor}}",
                       "showStepArrows": false,
                       "isVisible": true,
-                      "label": "Comentarios para actualizar datos.",
+                      "label": "Descripción del parte positivo.",
                       "version": 2,
                       "parentId": "o1l5w1oa0m",
                       "labelAlignment": "left",
                       "renderMode": "CANVAS",
                       "isLoading": false,
-                      "originalTopRow": 12,
+                      "originalTopRow": 18,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "maxDynamicHeight": 9000,
-                      "originalBottomRow": 21,
+                      "originalBottomRow": 29,
                       "iconAlign": "left",
-                      "defaultText": "{{Table1Copy.selectedRow.Comentarios}}",
+                      "defaultText": "",
                       "minDynamicHeight": 4
                     },
                     {
-                      "widgetName": "Text6",
-                      "displayName": "Text",
-                      "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
-                      "searchTags": [
-                        "typography",
-                        "paragraph",
-                        "label"
-                      ],
+                      "boxShadow": "none",
+                      "dateFormat": "DD/MM/YYYY",
+                      "iconSVG": "/static/media/icon.300e5ab8e2e1c26c7a0bad06116842b7.svg",
                       "topRow": 13,
-                      "bottomRow": 17,
-                      "parentRowSpace": 10,
-                      "type": "TEXT_WIDGET",
-                      "hideCard": false,
+                      "labelWidth": "18",
+                      "type": "DATE_PICKER_WIDGET2",
                       "animateLoading": true,
-                      "overflow": "NONE",
-                      "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
-                      "parentColumnSpace": 6.4921875,
-                      "dynamicTriggerPathList": [],
                       "leftColumn": 1,
                       "dynamicBindingPathList": [
                         {
-                          "key": "truncateButtonColor"
-                        },
-                        {
-                          "key": "fontFamily"
+                          "key": "accentColor"
                         },
                         {
                           "key": "borderRadius"
-                        },
-                        {
-                          "key": "text"
                         }
                       ],
-                      "shouldTruncate": false,
-                      "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-                      "text": "{{Table1Copy.selectedRow.Telefono1}}",
-                      "key": "lctun8lj46",
-                      "isDeprecated": false,
-                      "rightColumn": 25,
-                      "textAlign": "LEFT",
+                      "isDisabled": false,
+                      "isRequired": false,
                       "dynamicHeight": "AUTO_HEIGHT",
-                      "widgetId": "71lpgu898d",
+                      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
                       "isVisible": true,
-                      "fontStyle": "BOLD",
-                      "textColor": "#231F20",
-                      "version": 1,
-                      "parentId": "o1l5w1oa0m",
-                      "renderMode": "CANVAS",
+                      "datePickerType": "DATE_PICKER",
+                      "version": 2,
                       "isLoading": false,
-                      "originalTopRow": 8,
+                      "timePrecision": "minute",
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "originalBottomRow": 17,
+                      "closeOnSelection": true,
+                      "widgetName": "ModalFechaParte",
+                      "minDate": "1920-12-31T18:30:00.000Z",
+                      "displayName": "DatePicker",
+                      "searchTags": [
+                        "calendar"
+                      ],
+                      "bottomRow": 17,
+                      "shortcuts": false,
+                      "parentRowSpace": 10,
+                      "hideCard": false,
+                      "shouldScrollContents": true,
+                      "parentColumnSpace": 6.4921875,
+                      "dynamicTriggerPathList": [],
+                      "labelPosition": "Left",
+                      "key": "iagg9rf3zz",
+                      "labelTextSize": "0.875rem",
+                      "defaultDate": "2023-01-28T22:01:11.438Z",
+                      "isDeprecated": false,
+                      "rightColumn": 44,
+                      "widgetId": "5nz8jigo9k",
+                      "label": "Fecha del parte:",
+                      "parentId": "o1l5w1oa0m",
+                      "labelAlignment": "left",
+                      "renderMode": "CANVAS",
+                      "originalTopRow": 13,
                       "maxDynamicHeight": 9000,
-                      "originalBottomRow": 12,
-                      "fontSize": "1rem",
+                      "firstDayOfWeek": 0,
+                      "maxDate": "2121-12-31T18:29:00.000Z",
                       "minDynamicHeight": 4
                     },
                     {
-                      "widgetName": "Text7",
+                      "widgetName": "txtModalGrupo",
                       "displayName": "Text",
                       "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
                       "searchTags": [
@@ -847,8 +504,8 @@
                         "paragraph",
                         "label"
                       ],
-                      "topRow": 13,
-                      "bottomRow": 17,
+                      "topRow": 9,
+                      "bottomRow": 13,
                       "parentRowSpace": 10,
                       "type": "TEXT_WIDGET",
                       "hideCard": false,
@@ -857,7 +514,7 @@
                       "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
                       "parentColumnSpace": 6.4921875,
                       "dynamicTriggerPathList": [],
-                      "leftColumn": 26,
+                      "leftColumn": 13,
                       "dynamicBindingPathList": [
                         {
                           "key": "truncateButtonColor"
@@ -874,13 +531,13 @@
                       ],
                       "shouldTruncate": false,
                       "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-                      "text": "{{Table1Copy.selectedRow.Contacto1}}",
-                      "key": "lctun8lj46",
+                      "text": "{{Table1Copy.selectedRow.Grupo}}",
+                      "key": "63p0q89s1j",
                       "isDeprecated": false,
-                      "rightColumn": 64,
+                      "rightColumn": 39,
                       "textAlign": "LEFT",
                       "dynamicHeight": "AUTO_HEIGHT",
-                      "widgetId": "nuv0dunp7s",
+                      "widgetId": "ngnuiljt2y",
                       "isVisible": true,
                       "fontStyle": "BOLD",
                       "textColor": "#231F20",
@@ -888,11 +545,11 @@
                       "parentId": "o1l5w1oa0m",
                       "renderMode": "CANVAS",
                       "isLoading": false,
-                      "originalTopRow": 8,
+                      "originalTopRow": 9,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "maxDynamicHeight": 9000,
-                      "originalBottomRow": 12,
-                      "fontSize": "0.875rem",
+                      "originalBottomRow": 13,
+                      "fontSize": "1rem",
                       "minDynamicHeight": 4
                     }
                   ],
@@ -910,7 +567,7 @@
                 }
               ],
               "key": "zjdmmdrqff",
-              "height": 460,
+              "height": 390,
               "isDeprecated": false,
               "rightColumn": 0,
               "detachFromLayout": true,
@@ -1062,22 +719,7 @@
                           "key": "boxShadow"
                         },
                         {
-                          "key": "primaryColumns.Alumno.computedValue"
-                        },
-                        {
                           "key": "primaryColumns.Grupo.computedValue"
-                        },
-                        {
-                          "key": "primaryColumns.Telefono1.computedValue"
-                        },
-                        {
-                          "key": "primaryColumns.Contacto1.computedValue"
-                        },
-                        {
-                          "key": "primaryColumns.Telefono2.computedValue"
-                        },
-                        {
-                          "key": "primaryColumns.Contacto2.computedValue"
                         },
                         {
                           "key": "primaryColumns.rowIndex.computedValue"
@@ -1098,22 +740,7 @@
                           "key": "primaryColumns.EditActions1.isDiscardDisabled"
                         },
                         {
-                          "key": "primaryColumns.Detalles.computedValue"
-                        },
-                        {
-                          "key": "primaryColumns.Comentarios.computedValue"
-                        },
-                        {
-                          "key": "primaryColumns.Telefono3.computedValue"
-                        },
-                        {
-                          "key": "primaryColumns.Contacto3.computedValue"
-                        },
-                        {
-                          "key": "primaryColumns.Telefono4.computedValue"
-                        },
-                        {
-                          "key": "primaryColumns.Contacto4.computedValue"
+                          "key": "primaryColumns.Nombre.computedValue"
                         }
                       ],
                       "leftColumn": 0,
@@ -1158,20 +785,10 @@
                       "widgetName": "Table1Copy",
                       "defaultPageSize": 0,
                       "columnOrder": [
-                        "Alumno",
+                        "Nombre",
                         "Grupo",
-                        "Detalles",
-                        "Telefono1",
-                        "Contacto1",
-                        "Telefono2",
-                        "Contacto2",
                         "rowIndex",
-                        "EditActions1",
-                        "Comentarios",
-                        "Telefono3",
-                        "Contacto3",
-                        "Telefono4",
-                        "Contacto4"
+                        "EditActions1"
                       ],
                       "dynamicPropertyPathList": [
                         {
@@ -1194,7 +811,8 @@
                         "step": 62,
                         "status": 75,
                         "Grupo": 97,
-                        "Alumno": 226
+                        "Alumno": 226,
+                        "Nombre": 290
                       },
                       "parentRowSpace": 10,
                       "hideCard": false,
@@ -1205,34 +823,6 @@
                       ],
                       "borderWidth": "1",
                       "primaryColumns": {
-                        "Alumno": {
-                          "allowCellWrapping": false,
-                          "index": 0,
-                          "width": 150,
-                          "originalId": "Alumno",
-                          "id": "Alumno",
-                          "alias": "Alumno",
-                          "horizontalAlignment": "LEFT",
-                          "verticalAlignment": "CENTER",
-                          "columnType": "text",
-                          "textColor": "",
-                          "textSize": "0.875rem",
-                          "fontStyle": "",
-                          "enableFilter": true,
-                          "enableSort": true,
-                          "isVisible": true,
-                          "isDisabled": false,
-                          "isCellEditable": false,
-                          "isEditable": false,
-                          "isCellVisible": true,
-                          "isDerived": false,
-                          "label": "Alumno",
-                          "isSaveVisible": true,
-                          "isDiscardVisible": true,
-                          "computedValue": "{{Table1Copy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Alumno\"]))}}",
-                          "validation": {},
-                          "cellBackground": ""
-                        },
                         "Grupo": {
                           "allowCellWrapping": false,
                           "index": 1,
@@ -1258,118 +848,6 @@
                           "isSaveVisible": true,
                           "isDiscardVisible": true,
                           "computedValue": "{{Table1Copy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Grupo\"]))}}",
-                          "validation": {},
-                          "cellBackground": ""
-                        },
-                        "Telefono1": {
-                          "allowCellWrapping": false,
-                          "index": 2,
-                          "width": 150,
-                          "originalId": "Telefono1",
-                          "id": "Telefono1",
-                          "alias": "Telefono1",
-                          "horizontalAlignment": "LEFT",
-                          "verticalAlignment": "CENTER",
-                          "columnType": "number",
-                          "textColor": "",
-                          "textSize": "0.875rem",
-                          "fontStyle": "",
-                          "enableFilter": true,
-                          "enableSort": true,
-                          "isVisible": false,
-                          "isDisabled": false,
-                          "isCellEditable": false,
-                          "isEditable": false,
-                          "isCellVisible": true,
-                          "isDerived": false,
-                          "label": "Telefono1",
-                          "isSaveVisible": true,
-                          "isDiscardVisible": true,
-                          "computedValue": "{{Table1Copy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Telefono1\"]))}}",
-                          "validation": {},
-                          "cellBackground": ""
-                        },
-                        "Contacto1": {
-                          "allowCellWrapping": false,
-                          "index": 3,
-                          "width": 150,
-                          "originalId": "Contacto1",
-                          "id": "Contacto1",
-                          "alias": "Contacto1",
-                          "horizontalAlignment": "LEFT",
-                          "verticalAlignment": "CENTER",
-                          "columnType": "text",
-                          "textColor": "",
-                          "textSize": "0.875rem",
-                          "fontStyle": "",
-                          "enableFilter": true,
-                          "enableSort": true,
-                          "isVisible": false,
-                          "isDisabled": false,
-                          "isCellEditable": false,
-                          "isEditable": false,
-                          "isCellVisible": true,
-                          "isDerived": false,
-                          "label": "Contacto1",
-                          "isSaveVisible": true,
-                          "isDiscardVisible": true,
-                          "computedValue": "{{Table1Copy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Contacto1\"]))}}",
-                          "validation": {},
-                          "cellBackground": ""
-                        },
-                        "Telefono2": {
-                          "allowCellWrapping": false,
-                          "index": 6,
-                          "width": 150,
-                          "originalId": "Telefono2",
-                          "id": "Telefono2",
-                          "alias": "Telefono2",
-                          "horizontalAlignment": "LEFT",
-                          "verticalAlignment": "CENTER",
-                          "columnType": "number",
-                          "textColor": "",
-                          "textSize": "0.875rem",
-                          "fontStyle": "",
-                          "enableFilter": true,
-                          "enableSort": true,
-                          "isVisible": false,
-                          "isDisabled": false,
-                          "isCellEditable": false,
-                          "isEditable": false,
-                          "isCellVisible": true,
-                          "isDerived": false,
-                          "label": "Telefono2",
-                          "isSaveVisible": true,
-                          "isDiscardVisible": true,
-                          "computedValue": "{{Table1Copy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Telefono2\"]))}}",
-                          "validation": {},
-                          "cellBackground": ""
-                        },
-                        "Contacto2": {
-                          "allowCellWrapping": false,
-                          "index": 7,
-                          "width": 150,
-                          "originalId": "Contacto2",
-                          "id": "Contacto2",
-                          "alias": "Contacto2",
-                          "horizontalAlignment": "LEFT",
-                          "verticalAlignment": "CENTER",
-                          "columnType": "text",
-                          "textColor": "",
-                          "textSize": "0.875rem",
-                          "fontStyle": "",
-                          "enableFilter": true,
-                          "enableSort": true,
-                          "isVisible": false,
-                          "isDisabled": false,
-                          "isCellEditable": false,
-                          "isEditable": false,
-                          "isCellVisible": true,
-                          "isDerived": false,
-                          "label": "Contacto2",
-                          "isSaveVisible": true,
-                          "isDiscardVisible": true,
-                          "computedValue": "{{Table1Copy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Contacto2\"]))}}",
                           "validation": {},
                           "cellBackground": ""
                         },
@@ -1438,13 +916,13 @@
                           "isSaveDisabled": "{{Table1Copy.processedTableData.map((currentRow, currentIndex) => ( !Table1.updatedRowIndices.includes(currentIndex)))}}",
                           "isDiscardDisabled": "{{Table1Copy.processedTableData.map((currentRow, currentIndex) => ( !Table1.updatedRowIndices.includes(currentIndex)))}}"
                         },
-                        "Detalles": {
+                        "Nombre": {
                           "allowCellWrapping": false,
-                          "index": 6,
+                          "index": 1,
                           "width": 150,
-                          "originalId": "Detalles",
-                          "id": "Detalles",
-                          "alias": "Detalles",
+                          "originalId": "Nombre",
+                          "id": "Nombre",
+                          "alias": "Nombre",
                           "horizontalAlignment": "LEFT",
                           "verticalAlignment": "CENTER",
                           "columnType": "text",
@@ -1453,167 +931,28 @@
                           "fontStyle": "",
                           "enableFilter": true,
                           "enableSort": true,
-                          "isVisible": false,
+                          "isVisible": true,
                           "isDisabled": false,
                           "isCellEditable": false,
                           "isEditable": false,
                           "isCellVisible": true,
                           "isDerived": false,
-                          "label": "Detalles",
+                          "label": "Nombre",
                           "isSaveVisible": true,
                           "isDiscardVisible": true,
-                          "computedValue": "{{Table1Copy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Detalles\"]))}}",
-                          "validation": {},
-                          "cellBackground": ""
-                        },
-                        "Comentarios": {
-                          "allowCellWrapping": false,
-                          "index": 7,
-                          "width": 150,
-                          "originalId": "Comentarios",
-                          "id": "Comentarios",
-                          "alias": "Comentarios",
-                          "horizontalAlignment": "LEFT",
-                          "verticalAlignment": "CENTER",
-                          "columnType": "text",
-                          "textColor": "",
-                          "textSize": "0.875rem",
-                          "fontStyle": "",
-                          "enableFilter": true,
-                          "enableSort": true,
-                          "isVisible": false,
-                          "isDisabled": false,
-                          "isCellEditable": false,
-                          "isEditable": false,
-                          "isCellVisible": true,
-                          "isDerived": false,
-                          "label": "Comentarios",
-                          "isSaveVisible": true,
-                          "isDiscardVisible": true,
-                          "computedValue": "{{Table1Copy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Comentarios\"]))}}",
-                          "validation": {},
-                          "cellBackground": ""
-                        },
-                        "Telefono3": {
-                          "allowCellWrapping": false,
-                          "index": 8,
-                          "width": 150,
-                          "originalId": "Telefono3",
-                          "id": "Telefono3",
-                          "alias": "Telefono3",
-                          "horizontalAlignment": "LEFT",
-                          "verticalAlignment": "CENTER",
-                          "columnType": "text",
-                          "textColor": "",
-                          "textSize": "0.875rem",
-                          "fontStyle": "",
-                          "enableFilter": true,
-                          "enableSort": true,
-                          "isVisible": false,
-                          "isDisabled": false,
-                          "isCellEditable": false,
-                          "isEditable": false,
-                          "isCellVisible": true,
-                          "isDerived": false,
-                          "label": "Telefono3",
-                          "isSaveVisible": true,
-                          "isDiscardVisible": true,
-                          "computedValue": "{{Table1Copy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Telefono3\"]))}}",
-                          "validation": {},
-                          "cellBackground": ""
-                        },
-                        "Contacto3": {
-                          "allowCellWrapping": false,
-                          "index": 9,
-                          "width": 150,
-                          "originalId": "Contacto3",
-                          "id": "Contacto3",
-                          "alias": "Contacto3",
-                          "horizontalAlignment": "LEFT",
-                          "verticalAlignment": "CENTER",
-                          "columnType": "text",
-                          "textColor": "",
-                          "textSize": "0.875rem",
-                          "fontStyle": "",
-                          "enableFilter": true,
-                          "enableSort": true,
-                          "isVisible": false,
-                          "isDisabled": false,
-                          "isCellEditable": false,
-                          "isEditable": false,
-                          "isCellVisible": true,
-                          "isDerived": false,
-                          "label": "Contacto3",
-                          "isSaveVisible": true,
-                          "isDiscardVisible": true,
-                          "computedValue": "{{Table1Copy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Contacto3\"]))}}",
-                          "validation": {},
-                          "cellBackground": ""
-                        },
-                        "Telefono4": {
-                          "allowCellWrapping": false,
-                          "index": 10,
-                          "width": 150,
-                          "originalId": "Telefono4",
-                          "id": "Telefono4",
-                          "alias": "Telefono4",
-                          "horizontalAlignment": "LEFT",
-                          "verticalAlignment": "CENTER",
-                          "columnType": "text",
-                          "textColor": "",
-                          "textSize": "0.875rem",
-                          "fontStyle": "",
-                          "enableFilter": true,
-                          "enableSort": true,
-                          "isVisible": false,
-                          "isDisabled": false,
-                          "isCellEditable": false,
-                          "isEditable": false,
-                          "isCellVisible": true,
-                          "isDerived": false,
-                          "label": "Telefono4",
-                          "isSaveVisible": true,
-                          "isDiscardVisible": true,
-                          "computedValue": "{{Table1Copy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Telefono4\"]))}}",
-                          "validation": {},
-                          "cellBackground": ""
-                        },
-                        "Contacto4": {
-                          "allowCellWrapping": false,
-                          "index": 11,
-                          "width": 150,
-                          "originalId": "Contacto4",
-                          "id": "Contacto4",
-                          "alias": "Contacto4",
-                          "horizontalAlignment": "LEFT",
-                          "verticalAlignment": "CENTER",
-                          "columnType": "text",
-                          "textColor": "",
-                          "textSize": "0.875rem",
-                          "fontStyle": "",
-                          "enableFilter": true,
-                          "enableSort": true,
-                          "isVisible": false,
-                          "isDisabled": false,
-                          "isCellEditable": false,
-                          "isEditable": false,
-                          "isCellVisible": true,
-                          "isDerived": false,
-                          "label": "Contacto4",
-                          "isSaveVisible": true,
-                          "isDiscardVisible": true,
-                          "computedValue": "{{Table1Copy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Contacto4\"]))}}",
+                          "computedValue": "{{Table1Copy.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Nombre\"]))}}",
                           "validation": {},
                           "cellBackground": ""
                         }
                       },
                       "onRowSelected": "{{showModal('Modal1')}}",
+                      "defaultSearchText": "",
                       "key": "jzlggmraum",
                       "isDeprecated": false,
                       "rightColumn": 63,
                       "textSize": "0.875rem",
                       "widgetId": "ew30k73gei",
-                      "tableData": "{{ConsultaTelefonos01.data}}",
+                      "tableData": "{{ConsultaAlumnos.data}}",
                       "label": "Data",
                       "searchKey": "",
                       "parentId": "ylv8y6e1lp",
@@ -1867,10 +1206,12 @@
               "pluginType": "SAAS",
               "jsonPathKeys": [],
               "timeoutInMillisecond": 10000
-            },
+            }
+          ],
+          [
             {
-              "id": "Alumnos_ConsultaTelefonos01",
-              "name": "ConsultaTelefonos01",
+              "id": "Alumnos_ConsultaAlumnos",
+              "name": "ConsultaAlumnos",
               "confirmBeforeExecute": false,
               "pluginType": "SAAS",
               "jsonPathKeys": [],

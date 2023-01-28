@@ -6,7 +6,6 @@
     "pluginType": "JS",
     "actions": [],
     "archivedActions": [],
-    "body": "export default {\n\tmyVar1: [],\n\tmyVar2: {},\n\tautorizado: () => {\n\t\t//write code here\n\t\tif(ConsultaAutorizados.data.some(e => e.email === email_logueado.text))\n\t\t\t//Table1Copy.tableData = ConsultaTelefonos01.data;\n\t\t\treturn \"logedin\";\n\t\telse\n\t\t\treturn \"notlogedin\";\n\t},\n\tmyFun2: async () => {\n\t\t//use async-await or promises\n\t}\n}",
     "variables": [
       {
         "name": "myVar1",
