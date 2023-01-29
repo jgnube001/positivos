@@ -55,7 +55,7 @@
           "data": ""
         },
         "rowObjects": {
-          "data": "{\n\t\"Fecha\":\"{{ModalFechaParte.formattedDate}}\",\n\t\"Nombre\":\"{{txtModalNombre.text}}\",\n\t\"Grupo\":\"{{txtModalGrupo.text}}\",\n\t\"Profesor\":\"{{oauth_continue.data.name}}\",\n\t\"Descripcion\":\"{{ModalDescripcion.text}}\",\n\t\"FechaCreacion\":\"{{Date()}}\"\n}"
+          "data": "{\n\t\"FechaParte\":\"{{ModalFechaParte.formattedDate}}\",\n\t\"Nombre\":\"{{txtModalNombre.text}}\",\n\t\"Grupo\":\"{{txtModalGrupo.text}}\",\n\t\"Profesor\":\"{{oauth_continue.data.name}}\",\n\t\"Descripcion\":\"{{ModalDescripcion.text}}\",\n\t\"FechaCreacion\":\"{{Date()}}\"\n}"
         },
         "sheetName": {
           "data": "PartesPositivos"

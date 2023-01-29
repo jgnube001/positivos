@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 810,
+          "bottomRow": 460,
           "containerStyle": "none",
           "snapRows": 125,
           "parentRowSpace": 1,
@@ -104,7 +104,7 @@
                       "text": "Grupo: ",
                       "key": "ggdkon48bv",
                       "isDeprecated": false,
-                      "rightColumn": 12,
+                      "rightColumn": 14,
                       "textAlign": "LEFT",
                       "dynamicHeight": "AUTO_HEIGHT",
                       "widgetId": "u5izdnr6gq",
@@ -448,6 +448,9 @@
                         },
                         {
                           "key": "borderRadius"
+                        },
+                        {
+                          "key": "defaultDate"
                         }
                       ],
                       "isDisabled": false,
@@ -464,6 +467,11 @@
                       "closeOnSelection": true,
                       "widgetName": "ModalFechaParte",
                       "minDate": "1920-12-31T18:30:00.000Z",
+                      "dynamicPropertyPathList": [
+                        {
+                          "key": "defaultDate"
+                        }
+                      ],
                       "displayName": "DatePicker",
                       "searchTags": [
                         "calendar"
@@ -478,7 +486,7 @@
                       "labelPosition": "Left",
                       "key": "iagg9rf3zz",
                       "labelTextSize": "0.875rem",
-                      "defaultDate": "2023-01-28T22:01:11.438Z",
+                      "defaultDate": "{{Date.now()}}",
                       "isDeprecated": false,
                       "rightColumn": 52,
                       "widgetId": "5nz8jigo9k",
@@ -511,7 +519,7 @@
                       "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
                       "parentColumnSpace": 6.4921875,
                       "dynamicTriggerPathList": [],
-                      "leftColumn": 13,
+                      "leftColumn": 15,
                       "dynamicBindingPathList": [
                         {
                           "key": "truncateButtonColor"
@@ -590,8 +598,8 @@
                 "paragraph",
                 "label"
               ],
-              "topRow": 69,
-              "bottomRow": 73,
+              "topRow": 15,
+              "bottomRow": 19,
               "parentRowSpace": 10,
               "type": "TEXT_WIDGET",
               "hideCard": false,
@@ -631,10 +639,10 @@
               "parentId": "0",
               "renderMode": "CANVAS",
               "isLoading": false,
-              "originalTopRow": 74,
+              "originalTopRow": 69,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 78,
+              "originalBottomRow": 73,
               "fontSize": "1rem",
               "minDynamicHeight": 4
             },
@@ -651,7 +659,7 @@
               "displayName": "Tabs",
               "iconSVG": "/static/media/icon.74a6d653c8201e66f1cd367a3fba2657.svg",
               "topRow": 0,
-              "bottomRow": 69,
+              "bottomRow": 15,
               "parentRowSpace": 10,
               "type": "TABS_WIDGET",
               "hideCard": false,
@@ -679,14 +687,14 @@
                   "tabId": "tab1",
                   "widgetName": "Canvas2",
                   "displayName": "Canvas",
-                  "bottomRow": 690,
+                  "bottomRow": 150,
                   "topRow": 0,
                   "parentRowSpace": 1,
                   "type": "CANVAS_WIDGET",
                   "canExtend": true,
                   "hideCard": true,
                   "shouldScrollContents": false,
-                  "minHeight": 690,
+                  "minHeight": 150,
                   "parentColumnSpace": 1,
                   "dynamicTriggerPathList": [],
                   "leftColumn": 0,
@@ -978,14 +986,14 @@
                   "tabId": "tab2",
                   "widgetName": "Canvas3",
                   "displayName": "Canvas",
-                  "bottomRow": 690,
+                  "bottomRow": 150,
                   "topRow": 0,
                   "parentRowSpace": 1,
                   "type": "CANVAS_WIDGET",
                   "canExtend": true,
                   "hideCard": true,
                   "shouldScrollContents": false,
-                  "minHeight": 690,
+                  "minHeight": 150,
                   "parentColumnSpace": 1,
                   "dynamicTriggerPathList": [],
                   "leftColumn": 0,
@@ -1001,7 +1009,7 @@
                         "label"
                       ],
                       "topRow": 4,
-                      "bottomRow": 8,
+                      "bottomRow": 11,
                       "parentRowSpace": 10,
                       "type": "TEXT_WIDGET",
                       "hideCard": false,
@@ -1067,12 +1075,12 @@
                   "widgetName": "Canvas4",
                   "displayName": "Canvas",
                   "topRow": 1,
-                  "bottomRow": 690,
+                  "bottomRow": 150,
                   "parentRowSpace": 1,
                   "type": "CANVAS_WIDGET",
                   "canExtend": false,
                   "hideCard": true,
-                  "minHeight": 690,
+                  "minHeight": 150,
                   "parentColumnSpace": 1,
                   "dynamicTriggerPathList": [],
                   "leftColumn": 0,
@@ -1189,7 +1197,7 @@
               "originalTopRow": 0,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 74,
+              "originalBottomRow": 69,
               "minDynamicHeight": 15
             }
           ]
