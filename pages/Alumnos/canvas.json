@@ -641,10 +641,10 @@
               "parentId": "0",
               "renderMode": "CANVAS",
               "isLoading": false,
-              "originalTopRow": 15,
+              "originalTopRow": 17,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 19,
+              "originalBottomRow": 21,
               "fontSize": "1rem",
               "minDynamicHeight": 4
             },
@@ -1011,7 +1011,7 @@
                         "label"
                       ],
                       "topRow": 4,
-                      "bottomRow": 11,
+                      "bottomRow": 9,
                       "parentRowSpace": 10,
                       "type": "TEXT_WIDGET",
                       "hideCard": false,
@@ -1030,14 +1030,11 @@
                         },
                         {
                           "key": "borderRadius"
-                        },
-                        {
-                          "key": "text"
                         }
                       ],
                       "shouldTruncate": false,
                       "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-                      "text": "La cuenta {{oauth_continue.data.email}} no está autorizada. Cierra el navegador y vuelve a acceder con cuenta iesguadalquivir.net autorizada.",
+                      "text": "Acceso no autorizado. Cierra el navegador y vuelve a acceder con cuenta iesguadalquivir.net",
                       "key": "c3p3ukx65b",
                       "isDeprecated": false,
                       "rightColumn": 61,
@@ -1199,7 +1196,7 @@
               "originalTopRow": 0,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 15,
+              "originalBottomRow": 17,
               "minDynamicHeight": 15
             }
           ]
