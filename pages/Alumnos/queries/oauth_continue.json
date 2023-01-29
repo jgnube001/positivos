@@ -30,7 +30,7 @@
         },
         {
           "key": "redirect_uri",
-          "value": "https://app.appsmith.com/app/positivos/alumnos-63d26342af0003311d231632"
+          "value": "https://app.appsmith.com/app/partes-positivos/alumnos-63d26342af0003311d231632"
         }
       ],
       "bodyFormData": [],

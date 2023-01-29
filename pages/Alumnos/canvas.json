@@ -2,6 +2,7 @@
   "unpublishedPage": {
     "name": "Alumnos",
     "slug": "alumnos",
+    "customSlug": "",
     "layouts": [
       {
         "viewMode": false,
